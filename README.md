@@ -74,7 +74,19 @@ Preserving `copyright` information, the GPS `location`, and the `creation` date 
 })();
 ```
 
+## Optional Timeout
+
+If you are uploading a large number of images, images with a large filessize, or just have a slow connection speed, you can adjust the timeout on web requests to the TinyPNG API by passing a second, optional parameter to the constructor specifiying your preferred timeout in seconds.
+
+```
+const client = new TinyPNG('<YOUR API KEY>', 60);
+```
+
 ## Changelog
+
+- 1.0.1
+
+  - Added optional timeout
 
 - 1.0.0
   - Initial version

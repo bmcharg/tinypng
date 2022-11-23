@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rasshofer/tinypng.git"
+    "url": "git://github.com/bmcharg/tinypng.git"
   },
   "bugs": {
-    "url": "https://github.com/rasshofer/tinypng/issues"
+    "url": "https://github.com/bmcharg/tinypng/issues"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

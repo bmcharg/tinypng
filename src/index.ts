@@ -8,10 +8,10 @@ const toBuffer = async (data: string | Buffer): Promise<Buffer> =>
 export class TinyPNG {
   private instance: AxiosInstance;
 
-  constructor(apiKey: string) {
+  constructor(apiKey: string, timeout: number = 10) {
     this.instance = axios.create({
       baseURL: 'https://api.tinify.com',
-      timeout: 10 * 1000,
+      timeout: timeout * 1000,
       auth: {
         username: 'api',
         password: apiKey,
